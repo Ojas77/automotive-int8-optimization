@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Automotive Computer Vision: FP32 vs INT8 Quantization
 
 A reproducible, Git-ready starter project for evaluating post-training INT8 quantization of a YOLO object detector exported to ONNX.
@@ -161,3 +162,6 @@ automotive-int8-optimization/
 ## Safety and limitations
 
 This is a research/portfolio prototype. It is not an ADAS component and must not be connected to vehicle control. Benchmark results are hardware- and dataset-dependent. Check licenses for model weights and datasets before redistribution or commercial use.
+=======
+# automotive-int8-optimization
+>>>>>>> d95c0a72783ad9c92c4b100fac0b7ac87eecdca7
