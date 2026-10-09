@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automotive-int8-optimization"
+version = "0.1.0"
+description = "Reproducible FP32 vs INT8 ONNX benchmarking for automotive computer vision"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy>=1.24,<3",
+  "Pillow>=10.0",
+  "matplotlib>=3.7",
+  "pandas>=2.0",
+  "onnx>=1.15",
+  "onnxruntime>=1.17",
+  "ultralytics>=8.3",
+  "PyYAML>=6.0",
+  "psutil>=5.9"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

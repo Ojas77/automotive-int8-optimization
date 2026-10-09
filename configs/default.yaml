@@ -1,0 +1,10 @@
+model:
+  weights: yolo26n.pt
+  image_size: 640
+quantization:
+  method: static_qdq
+  max_calibration_images: 100
+benchmark:
+  warmup_runs: 10
+  measured_runs: 100
+  intra_op_threads: 0
